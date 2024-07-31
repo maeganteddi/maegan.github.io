@@ -1,0 +1,323 @@
+html {
+  height: 100%;
+  width: 100%;
+
+  /*
+    Add style rules for the body of a your webpage.
+    Note: These rules will be applied to all elements.
+  */
+  body {
+
+      /* Add a background color or image */
+      background-color: deeppink;;
+      
+      /* Customize the font, size, and color for text*/
+      font-family: Arial;
+      font-size: 20px;
+      color: white; 
+]
+
+      /* Adjust the padding and margins */
+      padding-top: 0;
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 0;
+
+      margin-top: 0;
+      margin-left: 0;
+      margin-right: 0;
+      margin-bottom: 0;
+
+  }
+
+
+
+  /*
+    Style Text: Add style rules for any headings (h1-6),
+    paragraphs and links
+  */
+
+  h1 {
+     background-color: hotpink;  
+    color: white;  
+  text-shadow: black 1px 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+font-size: 50px;
+  }
+
+  h2 {
+   text-shadow: #f0007c  1px 3px; 
+  font-size: 50px; 
+  background-color: pink; 
+  color: black;
+  }
+
+  h3 {
+  font-family: 'Times New Roman', Times, serif;
+  }
+nav{
+  background-color: #f5008f;  
+  color:black; 
+  font-size: 15px;
+}
+  p {
+font-size: 20px;
+  }
+
+  a {
+
+  }
+a:link {
+  color: blue;
+} 
+a:visited {
+color: blue;
+  }
+a:hover {
+   
+} 
+a:active {
+  
+}
+ button {
+    background-color:  #ff00ea;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 15px 32px;
+    cursor: pointer;
+  }
+
+
+
+  /* Select and style elements by class name or ID */ 
+
+
+
+  /* Example: This styles elements with class="header"*/
+  .header-container {
+    display: flex;
+    flex-direction: row; /* or column, depending on your preference */
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    color: #fff;
+    padding: 10px;
+    text-align: center; /* adjust as desired */
+    margin-top: 20px; /* adjust as desired */
+  }
+
+  .header-container img {
+    width: 100px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .header-container .header-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .header-button {
+    padding: 8px 16px;
+    background-color: #fc03cf;
+    color: #141414;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+
+
+  /* Example: This styles an element with an id="header-img" */
+  #header-img {
+
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light mode background */
+    color: #333; /* Light mode text color */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff; /* Light mode button color */
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  button#light-mode {
+    background-color: #28a745; /* Green color for light mode button */
+  }
+
+  button#light-mode:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+
+  button#dark-mode {
+    background-color: #333; /* Dark mode button color */
+  }
+
+  button#dark-mode:hover {
+    background-color: #555; /* Darker color on hover */
+  }
+
+  body.dark-mode {
+    background-color: #333; /* Dark mode background */
+    color: #f0f0f0; /* Dark mode text color */
+  }
+
+  body.dark-mode button {
+    background-color: #555; /* Dark mode button color */
+  }
+  .Pcontainer {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+
+  .left {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+  }
+
+  .right {
+    flex: 1;
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+
+  form {
+    margin-top: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  #error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+  } 
+
+  .section {
+    height: 100vh;
+    padding: 20px;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+
+  .section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  #submitBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  #modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  #modalImage {
+    width: 100px;
+    height: 100px;
+    transition: transform 0.6s ease-in-out;
+  }
+
+  #modalImage.animate {
+    transform: scale(1.2) rotate(15deg);
+  }
+}
